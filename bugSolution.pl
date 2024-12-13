@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $element;if ($#array >= 3) {    $element = $array[3];} else {    print "Array index out of bounds\n";    $element = undef; # or handle the error appropriately} # Now $element holds either the element at index 3 or undef
